@@ -8,10 +8,10 @@
 		<version>2.4.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>pl.fixit.starogardo.common</groupId>
-	<artifactId>Starogardo-common</artifactId>
+	<groupId>pl.fixit.stargardo.common</groupId>
+	<artifactId>Stargardo-common</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Starogardo-common</name>
+	<name>Stargardo-common</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -34,15 +34,10 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
 
 </project>
