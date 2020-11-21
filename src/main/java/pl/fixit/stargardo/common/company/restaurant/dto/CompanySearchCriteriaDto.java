@@ -1,13 +1,13 @@
 package pl.fixit.stargardo.common.company.restaurant.dto;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
+import pl.fixit.stargardo.common.company.enums.CompanyCategory;
 
 @Data
 public class CompanySearchCriteriaDto {
 
     private String text;
-    private Long categoryId;
+    private CompanyCategory companyCategory;
     private Long subcategoryId;
 
 }

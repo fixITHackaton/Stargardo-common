@@ -1,6 +1,5 @@
 package pl.fixit.stargardo.common.product.dto;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
