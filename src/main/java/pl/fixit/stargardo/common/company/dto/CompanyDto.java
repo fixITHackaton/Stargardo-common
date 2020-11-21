@@ -10,6 +10,7 @@ public class CompanyDto {
 
     private Long id;
     private String name;
+    private String description;
     private String telephone;
     private CompanyCategoryDto companyCategories;
     private List<CompanySubcategoryDto> companySubcategories;
