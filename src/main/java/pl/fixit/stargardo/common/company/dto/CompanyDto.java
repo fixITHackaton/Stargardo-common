@@ -16,7 +16,7 @@ public class CompanyDto {
     private String telephone;
     private CompanyCategory companyCategory;
     private List<CompanySubcategoryDto> companySubcategories;
-    private byte[] image;
+    private String image;
     private LocalTime openingHour;
     private LocalTime closingHour;
 

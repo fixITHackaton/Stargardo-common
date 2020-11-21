@@ -19,12 +19,10 @@ public enum CompanyCategory {
 
     private Integer id;
 
-    @JsonValue
     Integer getId() {
         return id;
     }
 
-    @JsonCreator
     public static CompanyCategory parse(Integer i) {
         return Arrays.stream(CompanyCategory.values())
                 .filter(cc -> cc.getId().equals(i))

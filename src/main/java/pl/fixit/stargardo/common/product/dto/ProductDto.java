@@ -10,7 +10,7 @@ public class ProductDto {
     private String name;
     private Double price;
     private String description;
-    private byte[] photo;
+    private String photo;
     private Long amount;
 
 }
