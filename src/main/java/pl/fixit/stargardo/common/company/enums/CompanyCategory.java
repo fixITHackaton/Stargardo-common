@@ -1,9 +1,14 @@
 package pl.fixit.stargardo.common.company.enums;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonValue;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 import java.util.Arrays;
+import java.util.stream.Stream;
 
 @AllArgsConstructor
 public enum CompanyCategory {
@@ -12,9 +17,14 @@ public enum CompanyCategory {
     RETAIL(1),
     SERVICES(2);
 
-    @Getter
     private Integer id;
 
+    @JsonValue
+    Integer getId() {
+        return id;
+    }
+
+    @JsonCreator
     public static CompanyCategory parse(Integer i) {
         return Arrays.stream(CompanyCategory.values())
                 .filter(cc -> cc.getId().equals(i))
