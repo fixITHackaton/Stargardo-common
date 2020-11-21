@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
-public class RestaurantSearchCriteriaDto {
+public class CompanySearchCriteriaDto {
 
     private String text;
     private Long categoryId;
