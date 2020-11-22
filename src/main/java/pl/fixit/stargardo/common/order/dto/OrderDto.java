@@ -13,8 +13,10 @@ public class OrderDto {
     private String surname;
     private String address;
     private Long restaurantId;
+    private String deliveryTime;
     private List<ProductDto> products;
     private String note;
+    private Long price;
     private Long paymentType;
 
 }

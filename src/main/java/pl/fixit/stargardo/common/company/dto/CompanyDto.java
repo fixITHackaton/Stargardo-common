@@ -18,5 +18,8 @@ public class CompanyDto {
     private String image;
     private String openingHour;
     private String closingHour;
+    private String nip;
+    private String accountNumber;
+    private String email;
 
 }
