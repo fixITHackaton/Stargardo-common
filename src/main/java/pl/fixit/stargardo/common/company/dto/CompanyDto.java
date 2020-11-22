@@ -3,7 +3,6 @@ package pl.fixit.stargardo.common.company.dto;
 import lombok.Data;
 import pl.fixit.stargardo.common.company.enums.CompanyCategory;
 
-import java.time.LocalTime;
 import java.util.List;
 
 @Data
@@ -17,7 +16,7 @@ public class CompanyDto {
     private CompanyCategory companyCategory;
     private List<CompanySubcategoryDto> companySubcategories;
     private String image;
-    private LocalTime openingHour;
-    private LocalTime closingHour;
+    private String openingHour;
+    private String closingHour;
 
 }
